@@ -1,5 +1,15 @@
 .App {
   text-align: center;
-  background-color: #F9F7F8;
-  min-height: 100vh;
+  background-color: #f9f7f8;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  border: 1px solid black;
 }

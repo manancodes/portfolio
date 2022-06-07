@@ -1,0 +1,12 @@
+.container {
+  background-color: #5ce1e6;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+
+.heading {
+  color: white;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,6 @@
+.container {
+  background-color: #ff7075;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
