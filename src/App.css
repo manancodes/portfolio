@@ -1,15 +1,37 @@
 .App {
-  text-align: center;
   background-color: #f9f7f8;
+  color: #fff;
   height: 100vh;
   width: 100vw;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  font-family: "Inter", sans-serif;
 }
 
-.section {
+/* global css classes to use wherever needed */
+.container {
+  box-sizing: border-box;
+  padding: 60px;
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
-  border: 1px solid black;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  border-radius: 20px;
+}
+.heading {
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.subHeading {
+  font-size: 42px;
+  margin: 0;
+  padding: 0;
 }
