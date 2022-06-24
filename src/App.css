@@ -22,16 +22,17 @@
   align-items: center;
 }
 .circle {
-  border-radius: 20px;
+  border-radius: 400px;
 }
 .heading {
-  font-size: 90px;
+  font-size: 60px;
   margin: 0;
   padding: 0;
 }
 
 .subHeading {
-  font-size: 42px;
+  font-size: 30px;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }

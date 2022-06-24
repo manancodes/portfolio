@@ -23,6 +23,7 @@
 }
 .headingContainer {
   flex-grow: 1;
+  padding-bottom: 50px;
   display: flex;
   align-items: center;
 }
@@ -36,10 +37,11 @@
 }
 
 .fromText {
-  font-weight: 300;
+  font-weight: 200;
   opacity: 0.8;
 }
 
 .indiaText {
+  font-weight: 200;
   color: #ffde59;
 }

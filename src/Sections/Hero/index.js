@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./hero.module.css";
 import Manan from "../../Assets/manan1.png";
-import Dots from "../../Assets/dots.svg";
+// import Dots from "../../Assets/dots.svg";
 
 export default function Hero() {
   return (
@@ -10,8 +10,10 @@ export default function Hero() {
         <h2 className={styles.logo}>Manan.</h2>
         <div className={`${styles.headingContainer}`}>
           <h1 className={`heading`}>
-            This is <br /> not a boring <br />
-            portfolio website
+            I like to build <br /> applications and <br />
+            websites to provide
+            <br />
+            the best user experience.
           </h1>
         </div>
         <div>
@@ -27,7 +29,7 @@ export default function Hero() {
         <div className={`${styles.imageContainer} circle`}>
           <img
             src={Manan}
-            alt="My Picture Goes Here"
+            alt="I am Manan"
             style={{
               height: "120%",
             }}
