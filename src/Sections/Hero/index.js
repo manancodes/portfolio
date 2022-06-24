@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./hero.module.css";
 import Manan from "../../Assets/manan1.png";
-import Dots from "../../Assets/dots.svg";
+// import Dots from "../../Assets/dots.svg";
+import Spline from "@splinetool/react-spline";
 
 export default function Hero() {
   return (
@@ -24,15 +25,7 @@ export default function Hero() {
         </div>
       </div>
       <div className={`${styles.rightContainer} center`}>
-        <div className={`${styles.imageContainer} circle`}>
-          <img
-            src={Manan}
-            alt="My Picture Goes Here"
-            style={{
-              height: "120%",
-            }}
-          />
-        </div>
+        <Spline scene="https://prod.spline.design/NUMso8sARaJ7pssC/scene.splinecode" />
       </div>
     </div>
   );

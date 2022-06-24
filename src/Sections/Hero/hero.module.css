@@ -28,10 +28,10 @@
 }
 
 .imageContainer {
-  height: 440px;
-  width: 440px;
-  background-color: #ffde59;
-  border: 14px solid white;
+  height: 640px;
+  width: 640px;
+  /* background-color: #ffde59; */
+  /* border: 14px solid white; */
   overflow: hidden;
 }
 
